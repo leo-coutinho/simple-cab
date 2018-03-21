@@ -33,6 +33,35 @@ From the browser copying the link bellow.
 
 - Example http://localhost:8096/swagger-ui.html For a full application documentation.
 
+- There are 4 Methods for the cab analyses.
+ - deleteMedaliumCache
+   It just deletes all existing caches.
+
+ - getMedalionsByDate
+   Will return all Medalion trips for the date.
+   Date input format is dd-mm-yyyy.
+   You can also choose if you want to cache or not.
+
+ - getMedallionsSummary
+   Will return all Trips made by the medallions for the entered date.
+   Enter an array of medallions by just typing in all medallions.
+   Enter PickUpDate format is dd-mm-yyyy
+   You can also choose if you want to cache or not.
+
+ - postMedallionCsvFile
+   Will return all Trips made by the medallions that exists on the .csv file
+   based on medallion and dates.
+
+   Choose the existing file from the base folder
+    \simple-cab\server\resouces\cabTrip.csv
+    You can also choose if you want to cache or not.
+
+
+
+
+
+
+
 
 
 ## Technical Overview
